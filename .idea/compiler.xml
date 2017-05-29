@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AST-BigData-Project" />
+        <module name="ast-filesystem-project" />
+        <module name="ast-kafka-project" />
+        <module name="ast-mysql-project" />
+        <module name="ast-scala-project" />
+        <module name="ast-spark-project" />
+        <module name="ast-starter-project" />
+        <module name="ast-starters-project" />
+        <module name="BigData-Maven" />
+        <module name="Scala-Hadoop-Maven" />
+        <module name="Scala-MySQL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AST-BigData-Project" target="1.5" />
+      <module name="ast-filesystem-project" target="1.5" />
+      <module name="ast-kafka-project" target="1.5" />
+      <module name="ast-mysql-project" target="1.5" />
+      <module name="ast-scala-project" target="1.5" />
+      <module name="ast-spark-project" target="1.5" />
+      <module name="ast-starter-project" target="1.5" />
+      <module name="ast-starters-project" target="1.5" />
+      <module name="BigData-Maven" target="1.5" />
+      <module name="Scala" target="1.5" />
+      <module name="Scala-Hadoop-Maven" target="1.5" />
+      <module name="Scala-MySQL" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

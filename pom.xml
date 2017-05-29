@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ast.bigdata</groupId>
+    <artifactId>ast-bigdata-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--
+        Module 1: MySQL
+        Module 2: File System
+        Module 3: Kafka (Pub/Sub)
+        Module 4: Spark (RDD, DataFrame, DStreams etc)
+     -->
+    <dependencies>
+        <dependency>
+            <groupId>com.ast.scala</groupId>
+            <artifactId>ast-scala-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ast.filesystem</groupId>
+            <artifactId>ast-filesystem-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ast.kafka</groupId>
+            <artifactId>ast-kafka-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ast.mysql</groupId>
+            <artifactId>ast-mysql-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ast.spark</groupId>
+            <artifactId>ast-spark-project</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <!-- For Packaging -->
+    <modules>
+        <module>modules/Scala</module>
+        <module>modules/FileSystem</module>
+        <module>modules/Kafka</module>
+        <module>modules/MySQL</module>
+        <module>modules/Spark</module>
+    </modules>
+</project>

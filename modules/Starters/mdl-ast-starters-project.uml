@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-ast-starters-project</OriginalElement>
+  <nodes>
+    <node x="359.5" y="0.0">mdl-ast-starters-project</node>
+    <node x="478.0" y="81.0">mdl-ast-spark-project</node>
+    <node x="699.0" y="81.0">mdl-ast-kafka-project</node>
+    <node x="0.0" y="81.0">mdl-ast-filesystem-project</node>
+    <node x="252.0" y="81.0">mdl-ast-mysql-project</node>
+    <node x="247.46428571428572" y="162.0">mdl-ast-scala-project</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-ast-starters-project" target="mdl-ast-spark-project">
+      <point x="43.19999999999999" y="15.5" />
+      <point x="510.7" y="61.0" />
+      <point x="578.5" y="61.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-starters-project" target="mdl-ast-mysql-project">
+      <point x="-43.19999999999999" y="15.5" />
+      <point x="424.3" y="61.0" />
+      <point x="354.5" y="61.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-starters-project" target="mdl-ast-kafka-project">
+      <point x="86.39999999999998" y="15.5" />
+      <point x="553.9" y="51.0" />
+      <point x="799.0" y="51.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-mysql-project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="354.5" y="137.0" />
+      <point x="346.9642857142857" y="137.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-starters-project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="467.5" y="137.0" />
+      <point x="413.29761904761904" y="137.0" />
+      <point x="66.33333333333331" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-starters-project" target="mdl-ast-filesystem-project">
+      <point x="-86.39999999999998" y="15.5" />
+      <point x="381.1" y="51.0" />
+      <point x="116.0" y="51.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-filesystem-project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="116.0" y="137.0" />
+      <point x="280.6309523809524" y="137.0" />
+      <point x="-66.33333333333331" y="-15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="449.5" y="96.5" />
+  <SelectedNodes>
+    <node>mdl-ast-starters-project</node>
+    <node>mdl-ast-scala-project</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

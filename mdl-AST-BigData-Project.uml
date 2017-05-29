@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-AST-BigData-Project</OriginalElement>
+  <nodes>
+    <node x="-257.5" y="-270.0">mdl-AST-BigData-Project</node>
+    <node x="85.0" y="-189.0">mdl-ast-spark-project</node>
+    <node x="-135.0" y="-189.0">mdl-ast-kafka-project</node>
+    <node x="-388.0" y="-189.0">mdl-ast-filesystem-project</node>
+    <node x="-613.0" y="-189.0">mdl-ast-mysql-project</node>
+    <node x="-377.07142857142856" y="-108.0">mdl-ast-scala-project</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-AST-BigData-Project" target="mdl-ast-kafka-project">
+      <point x="44.799999999999955" y="15.5" />
+      <point x="-100.70000000000005" y="-209.0" />
+      <point x="-35.0" y="-209.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-AST-BigData-Project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="-145.5" y="-133.0" />
+      <point x="-211.23809523809518" y="-133.0" />
+      <point x="66.33333333333331" y="-15.5" />
+    </edge>
+    <edge source="mdl-AST-BigData-Project" target="mdl-ast-filesystem-project">
+      <point x="-44.80000000000001" y="15.5" />
+      <point x="-190.3" y="-209.0" />
+      <point x="-272.0" y="-209.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-AST-BigData-Project" target="mdl-ast-spark-project">
+      <point x="89.60000000000002" y="15.5" />
+      <point x="-55.89999999999998" y="-219.0" />
+      <point x="185.5" y="-219.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-mysql-project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="-510.5" y="-133.0" />
+      <point x="-343.9047619047618" y="-133.0" />
+      <point x="-66.33333333333331" y="-15.5" />
+    </edge>
+    <edge source="mdl-AST-BigData-Project" target="mdl-ast-mysql-project">
+      <point x="-89.60000000000002" y="15.5" />
+      <point x="-235.10000000000002" y="-219.0" />
+      <point x="-510.5" y="-219.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="mdl-ast-filesystem-project" target="mdl-ast-scala-project">
+      <point x="0.0" y="15.5" />
+      <point x="-272.0" y="-133.0" />
+      <point x="-277.57142857142856" y="-133.0" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="-72.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Test dependencies</Category>
+  </Categories>
+</Diagram>
+

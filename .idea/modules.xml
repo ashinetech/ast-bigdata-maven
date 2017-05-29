@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AST-BigData-Project.iml" filepath="$PROJECT_DIR$/AST-BigData-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/FileSystem/ast-filesystem-project.iml" filepath="$PROJECT_DIR$/modules/FileSystem/ast-filesystem-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/Kafka/ast-kafka-project.iml" filepath="$PROJECT_DIR$/modules/Kafka/ast-kafka-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/MySQL/ast-mysql-project.iml" filepath="$PROJECT_DIR$/modules/MySQL/ast-mysql-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/Scala/ast-scala-project.iml" filepath="$PROJECT_DIR$/modules/Scala/ast-scala-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/Spark/ast-spark-project.iml" filepath="$PROJECT_DIR$/modules/Spark/ast-spark-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/Starters/ast-starters-project.iml" filepath="$PROJECT_DIR$/modules/Starters/ast-starters-project.iml" />
+    </modules>
+  </component>
+</project>
